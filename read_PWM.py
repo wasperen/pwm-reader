@@ -5,6 +5,8 @@
 # Public Domain
 # from http://abyz.co.uk/rpi/pigpio/code/read_PWM_py.zip
 
+import pigpio
+
 
 class PWMReader:
     """
@@ -104,7 +106,6 @@ class PWMReader:
 if __name__ == "__main__":
 
     import time
-    import pigpio
 
     PWM_GPIO = 4
     RUN_TIME = 60.0
