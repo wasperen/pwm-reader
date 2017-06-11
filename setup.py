@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='pwm_reader',
+    name='read_pwm',
     version='1.0',
     packages=[''],
     url='https://github.com/wasperen/pwm-reader.git',
